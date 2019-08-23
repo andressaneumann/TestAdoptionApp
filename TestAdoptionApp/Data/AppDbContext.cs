@@ -8,41 +8,56 @@ namespace TestAdoptionApp.Data
 {
     public class AppDbContext
     {
-        readonly SQLiteAsyncConnection _database;
+        readonly SQLiteConnection _database;
 
         public AppDbContext(string dbPath)
         {
-            _database = new SQLiteAsyncConnection(dbPath);
-            _database.CreateTableAsync<User>().Wait();
+            _database = new SQLiteConnection(dbPath);
+            _database.CreateTable<User>();
         }
 
-        public Task<List<User>> GetUsersAsync()
+        public List<User> GetUsers()
         {
-            return _database.Table<User>().ToListAsync();
+            return _database.Table<User>().ToList();
         }
 
-        public Task<User> GetUserAsync(int id)
+        public User GetUserAsync(int id)
         {
             return _database.Table<User>()
                             .Where(i => i.Id == id)
-                            .FirstOrDefaultAsync();
+                            .FirstOrDefault();
         }
 
-        public Task<int> SaveUserAsync(User user)
+        public bool CheckLoginData(User user)
+        {
+            User currentUser = _database.Table<User>().Where(i => i.Email == user.Email).FirstOrDefault();
+
+            if(currentUser != null)
+            {
+                if (currentUser.Password == user.Password)
+                    return true;
+                else
+                    return false;
+            }
+
+            return false;
+        }
+
+        public int SaveUser(User user)
         {
             if(user.Id != 0)
             {
-                return _database.UpdateAsync(user);
+                return _database.Update(user);
             }
             else
             {
-                return _database.InsertAsync(user);
+                return _database.Insert(user);
             }
         }
 
-        public Task<int> DeleteUserAsync(User user)
+        public int DeleteUser(User user)
         {
-            return _database.DeleteAsync(user);
+            return _database.Delete(user);
         }
     }
 }

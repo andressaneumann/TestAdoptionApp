@@ -54,7 +54,7 @@ namespace TestAdoptionApp.ViewModels
         async public void OnSubmit()
         {
             User user = new User(Name, Email, Password);
-            await App.Database.SaveUserAsync(user);
+            App.Database.SaveUser(user);
 
             await Application.Current.MainPage.DisplayAlert("Success!", "You have an account!", "Ok");
 

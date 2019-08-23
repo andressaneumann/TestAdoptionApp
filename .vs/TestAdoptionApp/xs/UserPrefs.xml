@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{D558E65B-BE5B-4809-82FD-878A3EE5C108}|Default">
   <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/ViewModels/RegisterViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/LoginPage.xaml">
     <Files>
-      <File FileName="TestAdoptionApp/Models/User.cs" Line="22" Column="30" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="21" Column="27" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" Line="24" Column="6" />
+      <File FileName="TestAdoptionApp/Models/User.cs" Line="19" Column="1" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="8" Column="1" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" Line="12" Column="35" />
       <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" Line="28" Column="24" />
-      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml.cs" Line="20" Column="10" />
-      <File FileName="TestAdoptionApp/ViewModels/LoginViewModel.cs" Line="24" Column="28" />
-      <File FileName="TestAdoptionApp/ViewModels/RegisterViewModel.cs" Line="39" Column="14" />
-      <File FileName="TestAdoptionApp/Data/AppDbContext.cs" Line="38" Column="14" />
+      <File FileName="TestAdoptionApp/ViewModels/LoginViewModel.cs" />
+      <File FileName="TestAdoptionApp/ViewModels/RegisterViewModel.cs" />
+      <File FileName="TestAdoptionApp/Views/MainPage.xaml" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +17,9 @@
             <Node name="TestAdoptionApp" expanded="True">
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="RegisterViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True" selected="True" />
                 <Node name="RegisterPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />

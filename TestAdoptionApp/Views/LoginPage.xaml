@@ -5,6 +5,7 @@
             <Color x:Key="primary">#5332f0</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
+
 	<ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="10">                  
@@ -17,7 +18,7 @@
                 <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                
                  <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Register" Clicked="OpenRegisterPage" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
 
-                <Label Text="Forgot password" HorizontalOptions="Center" TextColor="{StaticResource primary}"/>
+                <!--<Label Text="Forgot password" HorizontalOptions="Center" TextColor="{StaticResource primary}"/>-->
             </StackLayout>
         </ScrollView>
 	</ContentPage.Content>
