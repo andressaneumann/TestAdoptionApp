@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows.Input;
 using TestAdoptionApp.Models;
+using TestAdoptionApp.Views;
 using Xamarin.Forms;
 
 namespace TestAdoptionApp.ViewModels
@@ -51,12 +52,26 @@ namespace TestAdoptionApp.ViewModels
             }
         }
 
+        private bool isLoggedIn;
+        public bool IsLoggedIn
+        {
+            get { return isLoggedIn; }
+            set
+            {
+                isLoggedIn = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("IsLoggedIn"));
+            }
+        }
+
         async public void OnSubmit()
         {
             User user = new User(Name, Email, Password);
             App.Database.SaveUser(user);
 
+            IsLoggedIn = true;
             await Application.Current.MainPage.DisplayAlert("Success!", "You have an account!", "Ok");
+
+            App.Current.MainPage = new MainPage(IsLoggedIn);
 
         }
 

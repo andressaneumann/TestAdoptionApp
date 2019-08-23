@@ -11,5 +11,15 @@ namespace TestAdoptionApp.Views
         {
             InitializeComponent();
         }
+
+        public MainPage(bool isLoggedIn)
+        {
+            InitializeComponent();
+
+            if (!isLoggedIn)
+            {
+                App.Current.MainPage = new LoginPage();
+            }
+        }
     }
 }

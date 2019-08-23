@@ -43,6 +43,17 @@ namespace TestAdoptionApp.ViewModels
             }
         }
 
+        private bool isLoggedIn;
+        public bool IsLoggedIn
+        {
+            get { return isLoggedIn; }
+            set
+            {
+                isLoggedIn = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("IsLoggedIn"));
+            }
+        }
+
         async public void OnSubmit()
         {
             User user = new User(Email, Password);
@@ -50,10 +61,12 @@ namespace TestAdoptionApp.ViewModels
 
             if (userExists)
             {
+                IsLoggedIn = true;
                 App.Current.MainPage = new MainPage();
             }
             else
             {
+                IsLoggedIn = false;
                 await Application.Current.MainPage.DisplayAlert("Invalid data", "Please try to login again!", "Ok");
             }
         }
