@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{3C1B16C5-1E09-4F7D-8F7A-422B9B4E2FF8}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/MainPage.xaml">
+    <Files>
+      <File FileName="TestAdoptionApp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TestAdoptionApp/MainPage.xaml" Line="7" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestAdoptionApp" expanded="True">
+            <Node name="TestAdoptionApp" expanded="True">
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
