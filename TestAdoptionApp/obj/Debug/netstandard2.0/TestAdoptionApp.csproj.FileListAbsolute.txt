@@ -1,0 +1,13 @@
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/bin/Debug/netstandard2.0/TestAdoptionApp.deps.json
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/bin/Debug/netstandard2.0/TestAdoptionApp.dll
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/bin/Debug/netstandard2.0/TestAdoptionApp.pdb
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/RegisterPage.xaml.g.cs
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.csproj.CoreCompileInputs.cache
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.AssemblyInfoInputs.cache
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.AssemblyInfo.cs
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.dll
+/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.pdb

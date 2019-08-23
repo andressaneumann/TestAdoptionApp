@@ -130,4 +130,7 @@
       <Name>TestAdoptionApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_back.png" />
+  </ItemGroup>
 </Project>
