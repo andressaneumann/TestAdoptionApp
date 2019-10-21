@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{D558E65B-BE5B-4809-82FD-878A3EE5C108}|Default">
-  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Models/User.cs">
+  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.52005bb7ee5f55cd" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/RegisterPage.xaml">
     <Files>
-      <File FileName="TestAdoptionApp/Models/User.cs" Line="23" Column="32" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="26" Column="1" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" Line="12" Column="35" />
-      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" Line="28" Column="24" />
-      <File FileName="TestAdoptionApp/ViewModels/RegisterViewModel.cs" Line="20" Column="1" />
-      <File FileName="TestAdoptionApp/Views/MainPage.xaml" Line="7" Column="27" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="24" Column="27" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" />
+      <File FileName="TestAdoptionApp/App.xaml.cs" />
+      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,21 +14,12 @@
             <Node name="TestAdoptionApp" expanded="True">
               <Node name="Data" expanded="True" />
               <Node name="Enums" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="User.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="LoginPage.xaml" expanded="True" />
-                <Node name="MainPage.xaml" expanded="True" />
-                <Node name="RegisterPage.xaml" expanded="True" />
+                <Node name="RegisterPage.xaml" selected="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="TestAdoptionApp.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-              </Node>
             </Node>
             <Node name="TestAdoptionApp.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
@@ -38,14 +27,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1DE30A2E-9052-47DC-9CF7-BCB5BF6E3FFB" />
+  <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8802BC5-2F59-4A54-9D8A-F4B959443486" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

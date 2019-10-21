@@ -870,7 +870,7 @@
           "lib/monoandroid90/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.555618": {
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.1",
@@ -903,7 +903,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.555618",
+          "Xamarin.Forms": "4.1.0.581479",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -1904,10 +1904,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.555618": {
-      "sha512": "eZHy/yCrKhu3WUI1oszz8Hvq8iC+wQyokEVkzlSmNJD6xa2pGLq5UjOgpXEWu7zKPaoZ5c70SrTv1BBZE+Je1A==",
+    "Xamarin.Forms/4.1.0.581479": {
+      "sha512": "wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.555618",
+      "path": "xamarin.forms/4.1.0.581479",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2146,7 +2146,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.555618.nupkg.sha512",
+        "xamarin.forms.4.1.0.581479.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -2167,37 +2167,36 @@
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
       "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 4.1.0.555618"
+      "Xamarin.Forms >= 4.1.0.581479"
     ]
   },
   "packageFolders": {
-    "/Users/andressaneumann/.nuget/packages/": {}
+    "/Users/andressa/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp.Android/TestAdoptionApp.Android.csproj",
+      "projectUniqueName": "/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.Android/TestAdoptionApp.Android.csproj",
       "projectName": "TestAdoptionApp.Android",
-      "projectPath": "/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp.Android/TestAdoptionApp.Android.csproj",
-      "packagesPath": "/Users/andressaneumann/.nuget/packages/",
-      "outputPath": "/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp.Android/obj/",
+      "projectPath": "/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.Android/TestAdoptionApp.Android.csproj",
+      "packagesPath": "/Users/andressa/.nuget/packages/",
+      "outputPath": "/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/andressaneumann/.config/NuGet/NuGet.Config"
+        "/Users/andressa/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "/Users/andressaneumann/Documents/Projects/consulta-cliente-api/LocalPackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/TestAdoptionApp.csproj": {
-              "projectPath": "/Users/andressaneumann/Desktop/study/TestAdoptionApp/TestAdoptionApp/TestAdoptionApp.csproj"
+            "/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/TestAdoptionApp.csproj": {
+              "projectPath": "/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/TestAdoptionApp.csproj"
             }
           }
         }
@@ -2240,7 +2239,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.555618, )"
+            "version": "[4.1.0.581479, )"
           }
         }
       }

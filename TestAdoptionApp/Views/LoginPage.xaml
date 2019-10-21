@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestAdoptionApp.Views.LoginPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAdoptionApp.Views.LoginPage" BackgroundImageSource="background_2.png">
 <ContentPage.Resources>
          <ResourceDictionary>
             <Color x:Key="primary">#5332f0</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
-	<ContentPage.Content>
-        <ScrollView>
-            <StackLayout Spacing="10">                  
-                <Label Margin="0,40,0,0" HeightRequest="80" HorizontalOptions="FillAndExpand" Text="PetGO" BackgroundColor="{StaticResource primary}"
-                        TextColor="White" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+	<ContentPage.Content>             
+            <StackLayout Spacing="10" >
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="adopt_go_icon_100x100.png" Margin="0,50,0,0" HeightRequest="65" WidthRequest="65" />
+                    <Label Text="AdoptGO" HorizontalTextAlignment="Center"/>
+                </StackLayout>                
                 
                  <Entry Margin="20,40,20,0" x:Name="email" HeightRequest="50" Placeholder="Email" Text="{Binding Email}"/>                
                  <Entry Margin="20,0,20,0" x:Name="password" HeightRequest="50" IsPassword="true" Placeholder="Password" Text="{Binding Password}"/>
@@ -18,8 +20,7 @@
                 <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                
                  <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Register" Clicked="OpenRegisterPage" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
 
-                <!--<Label Text="Forgot password" HorizontalOptions="Center" TextColor="{StaticResource primary}"/>-->
+                <Label Text="Forgot password" HorizontalOptions="Center" TextColor="{StaticResource primary}"/>
             </StackLayout>
-        </ScrollView>
 	</ContentPage.Content>
 </ContentPage>

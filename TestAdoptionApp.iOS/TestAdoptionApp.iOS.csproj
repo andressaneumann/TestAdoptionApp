@@ -120,7 +120,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -132,5 +132,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\icon_back.png" />
+    <BundleResource Include="Resources\background_2.png" />
+    <BundleResource Include="Resources\adopt_go_icon.png" />
+    <BundleResource Include="Resources\adopt_go_icon_100x100.png" />
   </ItemGroup>
 </Project>
