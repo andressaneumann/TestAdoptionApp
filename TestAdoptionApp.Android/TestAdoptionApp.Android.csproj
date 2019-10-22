@@ -66,6 +66,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\CustomEntryBorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -112,12 +113,24 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Renderers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestAdoptionApp\TestAdoptionApp.csproj">
       <Project>{D3C8F431-9EE1-4EE5-947C-6E451B4E9A60}</Project>
       <Name>TestAdoptionApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Mosk_Bold_700.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Extra_Bold_800.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Extra_Light_200.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Light_300.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Medium_500.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Normal_400.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Semi_Bold 600.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Thin_100.ttf" />
+    <AndroidAsset Include="Assets\Mosk_Ultra_Bold_900.ttf" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

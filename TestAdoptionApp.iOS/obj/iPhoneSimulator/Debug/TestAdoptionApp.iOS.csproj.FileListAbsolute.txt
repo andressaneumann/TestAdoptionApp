@@ -115,11 +115,6 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/bin/iPhoneSimulator/Debug/TestAdoptionApp.dll
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/bin/iPhoneSimulator/Debug/TestAdoptionApp.pdb
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csprojAssemblyReference.cache
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csproj.CopyComplete
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.exe
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.pdb
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/ibtool/_BundleResourceWithLogicalName.items
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/actool/_PartialAppManifest.items
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/actool/_BundleResourceWithLogicalName.items
@@ -128,5 +123,10 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_back.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/background_2.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/adopt_go_icon.png
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/adopt_go_icon_100x100.png
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csprojAssemblyReference.cache
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csproj.CopyComplete
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.exe
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.pdb

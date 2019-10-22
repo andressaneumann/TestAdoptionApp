@@ -9,6 +9,13 @@ namespace TestAdoptionApp
 {
     public partial class App : Application
     {
+        public App()
+        {
+            InitializeComponent();
+
+            MainPage = new LoginPage();
+        }
+
         static AppDbContext database;
         public static AppDbContext Database
         {
@@ -22,12 +29,7 @@ namespace TestAdoptionApp
             }
         }
 
-        public App()
-        {
-            InitializeComponent();
-
-            MainPage = new LoginPage();
-        }
+        
 
         protected override void OnStart()
         {

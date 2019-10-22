@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestAdoptionApp.Views.LoginPage" BackgroundImageSource="background_2.png">
+             x:Class="TestAdoptionApp.Views.LoginPage" BackgroundImageSource="background_2.png"
+             xmlns:custom="clr-namespace:TestAdoptionApp.Renderers">
 <ContentPage.Resources>
-         <ResourceDictionary>
+         <ResourceDictionary>                         
             <Color x:Key="primary">#5332f0</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -11,16 +12,29 @@
             <StackLayout Spacing="10" >
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Image Source="adopt_go_icon_100x100.png" Margin="0,50,0,0" HeightRequest="65" WidthRequest="65" />
-                    <Label Text="AdoptGO" HorizontalTextAlignment="Center"/>
-                </StackLayout>                
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Adopt" Style="{StaticResource LabelStyle}" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="GO" Style="{StaticResource LabelStyle}" FontSize="23" Margin="-6,0,0,0" TextColor="{StaticResource primary}" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                    
+                </StackLayout>                                
+                 
+                <custom:CustomEntry Style="{StaticResource LabelStyle}" Margin="20,40,20,0" Placeholder="Email" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black"/>
+                <custom:CustomEntry Style="{StaticResource LabelStyle}" Margin="20,0,20,0" Placeholder="Senha" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black"/>                 
+
+                <Button Style="{StaticResource LabelStyle}" CornerRadius="5" Margin="20,10,20,0" HeightRequest="40" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                
+                 <!--<Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Register" Clicked="OpenRegisterPage" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>-->
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Margin="40,10,0,0">
+                    <Label Style="{StaticResource LabelStyle}" Text="Criar Conta" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OpenRegisterPage" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Style="{StaticResource LabelStyle}" Text="|" />
+                    <Label Style="{StaticResource LabelStyle}" Text="Recuperar Senha" />
+            </StackLayout>
                 
-                 <Entry Margin="20,40,20,0" x:Name="email" HeightRequest="50" Placeholder="Email" Text="{Binding Email}"/>                
-                 <Entry Margin="20,0,20,0" x:Name="password" HeightRequest="50" IsPassword="true" Placeholder="Password" Text="{Binding Password}"/>
-
-                <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                
-                 <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Register" Clicked="OpenRegisterPage" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
-
-                <Label Text="Forgot password" HorizontalOptions="Center" TextColor="{StaticResource primary}"/>
             </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

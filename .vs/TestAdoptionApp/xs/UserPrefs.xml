@@ -1,28 +1,26 @@
 ﻿<Properties StartupConfiguration="{D558E65B-BE5B-4809-82FD-878A3EE5C108}|Default">
   <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.52005bb7ee5f55cd" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/RegisterPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/LoginPage.xaml">
     <Files>
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="24" Column="27" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" />
-      <File FileName="TestAdoptionApp/App.xaml.cs" />
-      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="21" Column="56" IsPinned="True" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestAdoptionApp" expanded="True">
             <Node name="TestAdoptionApp" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Enums" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Renderers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="RegisterPage.xaml" selected="True" />
+                <Node name="LoginPage.xaml" expanded="True" selected="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="TestAdoptionApp.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Renderers" expanded="True" />
+            </Node>
             <Node name="TestAdoptionApp.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
+              <Node name="Renderers" expanded="True" />
             </Node>
           </Node>
         </State>
