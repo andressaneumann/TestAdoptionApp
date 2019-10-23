@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestAdoptionApp.Views.RegisterPage" BackgroundImageSource="background_login_screen">
+             x:Class="TestAdoptionApp.Views.RegisterPage" BackgroundImageSource="register_page_background.png" xmlns:custom="clr-namespace:TestAdoptionApp.Renderers">
 <ContentPage.Resources>
          <ResourceDictionary>
             <Color x:Key="primary">#5332f0</Color>
@@ -8,22 +8,29 @@
     </ContentPage.Resources>
 	<ContentPage.Content>
         <ScrollView>
-            <StackLayout Spacing="10">                  
+            <StackLayout Spacing="10" Margin="30,0,30,0">
+                <StackLayout HorizontalOptions="Center">
+                    <Image Source="adopt_go_icon_100x100.png" Margin="0,50,0,0" HeightRequest="65" WidthRequest="65" />
 
-                <StackLayout Margin="0,40,0,0" Orientation="Horizontal" HeightRequest="80" HorizontalOptions="FillAndExpand" BackgroundColor="{StaticResource primary}">
-                    <Image Source="icon_back" Margin="0,0,5,0">
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="BackToLoginPage"/>
-                        </Image.GestureRecognizers>
-                    </Image>
-                    <Label  Text="Register" TextColor="White" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Adopt" Style="{StaticResource LabelStyle}" Margin="0,0,-6,0" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="2" TextColor="{StaticResource primary}" Margin="0,-2,0,0" Style="{StaticResource LabelStyle}" FontSize="25"/>
+                        <Label Text="G0" Style="{StaticResource LabelStyle}" FontSize="23" Margin="-6,0,0,0" HorizontalTextAlignment="Center" />
+                    </StackLayout>
                 </StackLayout>
-                
-                 <Entry Margin="20,40,20,0" x:Name="name" HeightRequest="50" Placeholder="Name" Text="{Binding Name}"/>   
-                 <Entry Margin="20,0,20,0" x:Name="email" HeightRequest="50" Placeholder="Email" Text="{Binding Email}"/>                
-                 <Entry Margin="20,0,20,0" x:Name="password" HeightRequest="50" IsPassword="true" Placeholder="Password" Text="{Binding Password}"/>
-              
-                <Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Confirm" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>
+
+                <custom:ImageEntry LineColor="{StaticResource standardGray}" Margin="0,40,0,0" Image="icon_name.png" ImageHeight="25" ImageWidth="25" Placeholder="Nome Completo" PlaceholderColor="#707070" HorizontalOptions="FillAndExpand" />
+                <custom:ImageEntry LineColor="{StaticResource standardGray}" Margin="0,15,0,0" Image="icon_email.png" ImageHeight="25" ImageWidth="25" Placeholder="Email" PlaceholderColor="#707070" HorizontalOptions="FillAndExpand" IsPassword="true" />
+                <custom:ImageEntry LineColor="{StaticResource standardGray}" Margin="0,15,0,0" Image="icon_password.png" ImageHeight="25" ImageWidth="25" Placeholder="Senha" PlaceholderColor="#707070" HorizontalOptions="FillAndExpand" IsPassword="true" />
+
+                 <Button Style="{StaticResource LabelStyle}" CornerRadius="5" Margin="0,20,0,0" HeightRequest="40" TextColor="White" Text="Confirmar" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" />
+
+                <Label Text="Voltar" FontAttributes="Bold" TextDecorations="Underline" TextColor="{StaticResource standardGray}" Margin="0,5,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="BackToLoginPage" />
+                    </Label.GestureRecognizers>
+                </Label>
+
             </StackLayout>
         </ScrollView>
 	</ContentPage.Content>

@@ -126,6 +126,8 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/adopt_go_icon_100x100.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_email.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_password.png
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_name.png
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/register_page_background.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csprojAssemblyReference.cache
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp

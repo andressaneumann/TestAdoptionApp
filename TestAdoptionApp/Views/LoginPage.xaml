@@ -2,12 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TestAdoptionApp.Views.LoginPage" BackgroundImageSource="background_2.png"
              xmlns:custom="clr-namespace:TestAdoptionApp.Renderers">
-<ContentPage.Resources>
-         <ResourceDictionary>                         
-            <Color x:Key="primary">#5332f0</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
 	<ContentPage.Content>             
             <StackLayout Spacing="10" >
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">

@@ -148,6 +148,8 @@
     <BundleResource Include="Resources\Mosk_Ultra_Bold_900.ttf" />
     <BundleResource Include="Resources\icon_email.png" />
     <BundleResource Include="Resources\icon_password.png" />
+    <BundleResource Include="Resources\icon_name.png" />
+    <BundleResource Include="Resources\register_page_background.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />

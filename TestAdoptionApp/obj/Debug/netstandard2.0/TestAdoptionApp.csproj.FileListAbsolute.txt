@@ -24,4 +24,3 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.dll
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.pdb
-/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.csprojAssemblyReference.cache

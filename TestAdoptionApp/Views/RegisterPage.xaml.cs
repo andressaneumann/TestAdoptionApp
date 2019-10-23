@@ -14,9 +14,9 @@ namespace TestAdoptionApp.Views
             this.BindingContext = vm;
         }
 
-        async void BackToLoginPage(object sender, EventArgs e)
+        void BackToLoginPage(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync();
+            App.Current.MainPage = new LoginPage();
         }
     }
 }

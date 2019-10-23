@@ -2,6 +2,10 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="TestAdoptionApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="primary">#5332f0</Color>
+
+            <Color x:Key="standardGray">#707070</Color>
+
             <Style x:Key="LabelStyle" TargetType="Label">
                  <Setter Property="Label.FontFamily">
                      <Setter.Value>
