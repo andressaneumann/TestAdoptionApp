@@ -14,17 +14,22 @@
                     <Image Source="adopt_go_icon_100x100.png" Margin="0,50,0,0" HeightRequest="65" WidthRequest="65" />
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Adopt" Style="{StaticResource LabelStyle}" FontSize="23" HorizontalTextAlignment="Center"/>
-                        <Label Text="GO" Style="{StaticResource LabelStyle}" FontSize="23" Margin="-6,0,0,0" TextColor="{StaticResource primary}" HorizontalTextAlignment="Center" />
+                        <Label Text="Adopt" Style="{StaticResource LabelStyle}" Margin="0,0,-6,0" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="2" TextColor="{StaticResource primary}" Margin="0,-2,0,0" Style="{StaticResource LabelStyle}" FontSize="25"/>
+                        <Label Text="G0" Style="{StaticResource LabelStyle}" FontSize="23" Margin="-6,0,0,0" HorizontalTextAlignment="Center" />
                     </StackLayout>
                     
-                </StackLayout>                                
-                 
-                <custom:CustomEntry Style="{StaticResource LabelStyle}" Margin="20,40,20,0" Placeholder="Email" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black"/>
-                <custom:CustomEntry Style="{StaticResource LabelStyle}" Margin="20,0,20,0" Placeholder="Senha" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black"/>                 
+                </StackLayout>                                                              
+                
+                
+                <!--<custom:CustomEntry Style="{StaticResource LabelStyle}" Placeholder="Email" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black"/>-->                                    
+                
+                <custom:ImageEntry LineColor="#707070" Margin="20,40,20,0" Image="icon_email.png" ImageHeight="25" ImageWidth="25" Placeholder="Email" PlaceholderColor="#707070" HorizontalOptions="FillAndExpand" />
+                <custom:ImageEntry LineColor="#707070" Margin="20,15,20,0" Image="icon_password.png" ImageHeight="25" ImageWidth="25" Placeholder="Senha" PlaceholderColor="#707070" HorizontalOptions="FillAndExpand" IsPassword="true" />
 
-                <Button Style="{StaticResource LabelStyle}" CornerRadius="5" Margin="20,10,20,0" HeightRequest="40" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                
-                 <!--<Button Margin="20,0,20,0" HeightRequest="50" TextColor="White" Text="Register" Clicked="OpenRegisterPage" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>-->
+            <!--<custom:CustomEntry Style="{StaticResource LabelStyle}" Margin="20,0,20,0" Placeholder="Senha" HeightRequest="40" PlaceholderColor="#707070" TextColor="Black" IsPassword="True"/>-->                 
+
+                <Button Style="{StaticResource LabelStyle}" CornerRadius="5" Margin="20,15,30,0" HeightRequest="40" TextColor="White" Text="Login" BackgroundColor="{StaticResource primary}" HorizontalOptions="FillAndExpand" Command="{Binding SubmitCommand}"/>                                 
                 <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Margin="40,10,0,0">
                     <Label Style="{StaticResource LabelStyle}" Text="Criar Conta" >
                         <Label.GestureRecognizers>

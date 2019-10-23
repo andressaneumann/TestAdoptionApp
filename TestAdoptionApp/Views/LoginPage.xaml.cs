@@ -19,7 +19,8 @@ namespace TestAdoptionApp.Views
 
         async void OpenRegisterPage(object sender, EventArgs e)
         {
-			await Navigation.PushModalAsync(new RegisterPage());
+            App.Current.MainPage = new RegisterPage();
+            //await Navigation.PushModalAsync(new RegisterPage());
         }
     }
 }

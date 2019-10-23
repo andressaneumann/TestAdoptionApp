@@ -61,5 +61,6 @@ namespace TestAdoptionApp.Renderers
             set { SetValue(IsCurvedCornersEnabledProperty, value); }
         }
 
+
     }
 }

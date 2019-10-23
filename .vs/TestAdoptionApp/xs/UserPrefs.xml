@@ -1,8 +1,12 @@
-﻿<Properties StartupConfiguration="{D558E65B-BE5B-4809-82FD-878A3EE5C108}|Default">
+﻿<Properties StartupConfiguration="{3C1B16C5-1E09-4F7D-8F7A-422B9B4E2FF8}|Default">
   <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.52005bb7ee5f55cd" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/LoginPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp.Android/Renderers/ImageEntryRenderer.cs">
     <Files>
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="21" Column="56" IsPinned="True" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="34" Column="95" IsPinned="True" />
+      <File FileName="TestAdoptionApp/Renderers/CustomEntry.cs" Line="55" Column="19" />
+      <File FileName="TestAdoptionApp.Android/Renderers/CustomEntryBorder.cs" Line="26" Column="55" />
+      <File FileName="TestAdoptionApp.Android/Renderers/ImageEntryRenderer.cs" Line="55" Column="1" />
+      <File FileName="TestAdoptionApp.Android/Renderers/ImageEntryRenderer.cs" Line="58" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,17 +14,13 @@
           <Node name="TestAdoptionApp" expanded="True">
             <Node name="TestAdoptionApp" expanded="True">
               <Node name="Renderers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="LoginPage.xaml" expanded="True" selected="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="TestAdoptionApp.Android" expanded="True">
-              <Node name="Assets" expanded="True" />
-              <Node name="Renderers" expanded="True" />
-            </Node>
-            <Node name="TestAdoptionApp.iOS" expanded="True">
-              <Node name="Renderers" expanded="True" />
+              <Node name="Renderers" expanded="True">
+                <Node name="ImageEntryRenderer.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
