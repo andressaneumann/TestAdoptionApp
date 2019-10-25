@@ -18,6 +18,7 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/RecoverPasswordEmailPage.xaml.g.cs
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/Views/RegisterPage.xaml.g.cs
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.AssemblyInfoInputs.cache
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp/obj/Debug/netstandard2.0/TestAdoptionApp.AssemblyInfo.cs

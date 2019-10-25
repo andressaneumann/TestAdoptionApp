@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{D558E65B-BE5B-4809-82FD-878A3EE5C108}|Default">
   <MonoDevelop.Ide.ItemProperties.TestAdoptionApp.Android PreferredExecutionTarget="Android.52005bb7ee5f55cd" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/RegisterPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdoptionApp/Views/RegisterPage.xaml.cs">
     <Files>
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="31" Column="52" IsPinned="True" />
-      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" Line="22" Column="58" />
-      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml.cs" Line="23" Column="1" />
-      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" Line="20" Column="63" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml" Line="29" Column="51" IsPinned="True" />
+      <File FileName="TestAdoptionApp/Views/LoginPage.xaml.cs" />
+      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml" Line="36" Column="1" />
+      <File FileName="TestAdoptionApp/Views/RecoverPasswordEmailPage.xaml" Line="16" Column="100" />
+      <File FileName="TestAdoptionApp/Views/MainPage.xaml" Line="24" Column="1" />
+      <File FileName="TestAdoptionApp/Views/RegisterPage.xaml.cs" Line="14" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,17 +15,16 @@
           <Node name="TestAdoptionApp" expanded="True">
             <Node name="TestAdoptionApp" expanded="True">
               <Node name="Renderers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="LoginPage.xaml" expanded="True" />
-                <Node name="RegisterPage.xaml" expanded="True" selected="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="RecoverPasswordEmailPage.xaml" expanded="True" />
+                <Node name="RegisterPage.xaml" expanded="True">
+                  <Node name="RegisterPage.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="TestAdoptionApp.Android" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
-            <Node name="TestAdoptionApp.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

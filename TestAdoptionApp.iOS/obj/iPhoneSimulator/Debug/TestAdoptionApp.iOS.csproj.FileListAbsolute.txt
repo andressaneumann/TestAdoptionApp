@@ -128,8 +128,10 @@
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_password.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/icon_name.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/register_page_background.png
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/recover_password_background.png
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-13.1/optimized/
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csprojAssemblyReference.cache
+/Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/Resources/RecoverPasswordEmailPage.xaml.g.cs
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.csproj.CopyComplete
 /Users/andressa/Desktop/Special Project/TestAdoptionApp/TestAdoptionApp.iOS/obj/iPhoneSimulator/Debug/TestAdoptionApp.iOS.exe

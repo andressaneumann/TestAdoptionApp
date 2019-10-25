@@ -6460,13 +6460,16 @@ namespace TestAdoptionApp.Droid
 			public const int notify_panel_notification_icon_bg = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int register_page_background = 2131165504;
+			public const int recover_password_background = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int tooltip_frame_dark = 2131165505;
+			public const int register_page_background = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int tooltip_frame_light = 2131165506;
+			public const int tooltip_frame_dark = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int tooltip_frame_light = 2131165507;
 			
 			static Drawable()
 			{

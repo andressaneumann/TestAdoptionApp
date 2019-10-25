@@ -67,6 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers\CustomEntryBorder.cs" />
     <Compile Include="Renderers\ImageEntryRenderer.cs" />
+    <Compile Include="Resources\RecoverPasswordEmailPage.xaml.cs">
+      <DependentUpon>RecoverPasswordEmailPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -150,8 +153,15 @@
     <BundleResource Include="Resources\icon_password.png" />
     <BundleResource Include="Resources\icon_name.png" />
     <BundleResource Include="Resources\register_page_background.png" />
+    <BundleResource Include="Resources\recover_password_background.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Renderers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\RecoverPasswordEmailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

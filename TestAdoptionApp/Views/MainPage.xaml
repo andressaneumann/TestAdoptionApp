@@ -1,8 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestAdoptionApp.Views.MainPage">
-    <ContentPage.Content>
-        <StackLayout Margin="0,25,0,0">
-            <Label>Welcome to PetGo!</Label>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestAdoptionApp.Views.MainPage">
+    <TabbedPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.iOS>
+                0, 20, 0, 0
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                0, 0, 0, 0
+            </OnPlatform.Android>
+        </OnPlatform> 
+    </TabbedPage.Padding>
+    <!--<TabbedPage.Content>
+        <StackLayout Margin="20,40,20,0">
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Olá, " Style="{StaticResource LabelStyle}" TextColor="Black" FontSize="35" />
+                <Label Text="usuário" Margin="-6,0,0,0" Style="{StaticResource LabelStyle}" TextColor="{StaticResource primary}" FontSize="35"/>
+            </StackLayout>
+
+            <Label Text="Seu novo melhor amigo está aqui!" Style="{StaticResource LabelStyle}" TextColor="Black" FontSize="20" />
+
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </TabbedPage.Content>-->
+</TabbedPage>

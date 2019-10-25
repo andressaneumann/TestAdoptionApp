@@ -22,5 +22,11 @@ namespace TestAdoptionApp.Views
             App.Current.MainPage = new RegisterPage();
             //await Navigation.PushModalAsync(new RegisterPage());
         }
+
+        async void OpenRecoverPasswordPage(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new RecoverPasswordEmailPage();
+            //await Navigation.PushModalAsync(new RegisterPage());
+        }
     }
 }

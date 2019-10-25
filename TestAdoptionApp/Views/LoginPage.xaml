@@ -31,7 +31,11 @@
                         </Label.GestureRecognizers>
                     </Label>
                     <Label Style="{StaticResource LabelStyle}" Text="|" />
-                    <Label Style="{StaticResource LabelStyle}" Text="Recuperar Senha" />
+                    <Label Style="{StaticResource LabelStyle}" Text="Recuperar Senha">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OpenRecoverPasswordPage" />
+                        </Label.GestureRecognizers>
+                    </Label>
             </StackLayout>
                 
             </StackLayout>
